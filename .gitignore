@@ -1,8 +1,10 @@
+# Compiled binaries
+test_libft
+test_libft.exe
+libft.a
+
 # Object files
 *.o
-
-# Compiled library
-libft.a
 
 # Backup files
 *~
