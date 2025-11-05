@@ -1,0 +1,15 @@
+# Object files
+*.o
+
+# Compiled library
+libft.a
+
+# Backup files
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code files
+.vscode/
