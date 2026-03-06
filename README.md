@@ -48,14 +48,17 @@ The project comes with a **Makefile** to automate the build process.
 
 ### Implementation
 To use this library in your own C project:
-1. Copy `libft.a` and `libft.h` into your project folder.
-2. Include the header at the top of your `.c` files:
-   ```c
-   #include "libft.h"
 
+Copy libft.a and libft.h into your project folder.
+
+Include the header at the top of your .c files:
+
+C
+#include "libft.h"
 Compile your program by linking the library:
-gcc main.c -L. -lft
 
+Bash
+gcc main.c -L. -lft
 ### 🧠 Key Learnings
 Memory Management: Handling malloc and free to prevent memory leaks.
 Pointers: Deep diving into pointer arithmetic and void * casting.
