@@ -54,7 +54,7 @@ To use this library in your own C project:
    #include "libft.h"
 
 Compile your program by linking the library:
-``` gcc main.c -L. -lft
+gcc main.c -L. -lft
 
 ### 🧠 Key Learnings
 Memory Management: Handling malloc and free to prevent memory leaks.
